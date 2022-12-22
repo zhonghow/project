@@ -55,7 +55,7 @@ class Authentication
 
         if (empty($email) || empty($password) || empty($confirm_password)) {
             $message = "All fields are required.";
-        } else 
+        } 
 
         if (strlen($password) < 8) {
             $message = "Password must be 8 characters or above.";
